@@ -1,6 +1,6 @@
 {
   "name": "kagi-ken-cli",
-  "version": "1.5.2",
+  "version": "1.6.0",
   "description": "A CLI tool providing access to Kagi.com services (search and summarizer) using session tokens. Outputs structured JSON matching official API schemas.",
   "type": "module",
   "main": "src/index.js",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^14.0.0",
-    "kagi-ken": "github:czottmann/kagi-ken#1.0.0"
+    "kagi-ken": "github:czottmann/kagi-ken#1.2.0"
   },
   "directories": {
     "doc": "docs"
