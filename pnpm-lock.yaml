@@ -12,8 +12,8 @@ importers:
         specifier: ^14.0.0
         version: 14.0.0
       kagi-ken:
-        specifier: github:czottmann/kagi-ken#1.0.0
-        version: https://codeload.github.com/czottmann/kagi-ken/tar.gz/369f2a19c60525b3146360b063190466d2084d34
+        specifier: github:rnavarro/kagi-ken
+        version: https://codeload.github.com/rnavarro/kagi-ken/tar.gz/620e8b7b4c2a1b82d0e8818c507a642595d5d76e
 
 packages:
 
@@ -69,9 +69,10 @@ packages:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
     engines: {node: '>=0.10.0'}
 
-  kagi-ken@https://codeload.github.com/czottmann/kagi-ken/tar.gz/369f2a19c60525b3146360b063190466d2084d34:
-    resolution: {tarball: https://codeload.github.com/czottmann/kagi-ken/tar.gz/369f2a19c60525b3146360b063190466d2084d34}
-    version: 1.0.0
+  kagi-ken@https://codeload.github.com/rnavarro/kagi-ken/tar.gz/620e8b7b4c2a1b82d0e8818c507a642595d5d76e:
+    resolution: {tarball: https://codeload.github.com/rnavarro/kagi-ken/tar.gz/620e8b7b4c2a1b82d0e8818c507a642595d5d76e}
+    version: 1.2.0
+    engines: {node: '>=22.0.0'}
 
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
@@ -95,6 +96,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -177,7 +179,7 @@ snapshots:
     dependencies:
       safer-buffer: 2.1.2
 
-  kagi-ken@https://codeload.github.com/czottmann/kagi-ken/tar.gz/369f2a19c60525b3146360b063190466d2084d34:
+  kagi-ken@https://codeload.github.com/rnavarro/kagi-ken/tar.gz/620e8b7b4c2a1b82d0e8818c507a642595d5d76e:
     dependencies:
       cheerio: 1.1.2
 

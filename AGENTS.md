@@ -2,13 +2,9 @@
 
 This file provides guidance to LLM agents when working with code in this repository.
 
-## Project Overview
+## Project
 
-This is a Node.js CLI tool that provides access to Kagi.com services using session tokens (not API keys):
-- **Search**: Parses Kagi's search result HTML pages and returns structured JSON data matching Kagi's official search API schema
-- **Summarizer**: Uses Kagi's Summarizer endpoint to summarize URLs or text content with streaming JSON response parsing
-
-The project is fully implemented and functional.
+kagi-ken-cli is a Node.js CLI tool providing access to Kagi.com search and summarizer via session tokens. It wraps the [kagi-ken](https://github.com/rnavarro/kagi-ken) library with a Commander.js interface. Forked from `czottmann/kagi-ken-cli`.
 
 ## Architecture
 
@@ -21,12 +17,9 @@ The project is fully implemented and functional.
 ## Key Files
 
 - `package.json` - Project configuration with ES modules, Commander.js and Cheerio dependencies
-- `SPEC.md` - Complete project specification and requirements
-- `example-search-result-page.html` - Sample Kagi search page for parsing reference
-- `index.js` - Main CLI entry point with command dispatcher and Commander.js setup
-- `src/web-client.js` - Core functionality with HTTP requests, HTML parsing, and streaming JSON parsing
-- `src/commands/search.js` - Search command implementation
-- `src/commands/summarize.js` - Summarizer command implementation
+- `src/index.js` - Main CLI entry point with command dispatcher and Commander.js setup
+- `src/commands/search.js` - Search command implementation (uses `kagi-ken` library)
+- `src/commands/summarize.js` - Summarizer command implementation (uses `kagi-ken` library)
 - `src/utils/auth.js` - Authentication utilities and token resolution
 - `src/utils/help-text.js` - Shared help text constants
 

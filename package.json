@@ -27,17 +27,17 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^14.0.0",
-    "kagi-ken": "github:czottmann/kagi-ken#1.2.0"
+    "kagi-ken": "github:rnavarro/kagi-ken"
   },
   "directories": {
     "doc": "docs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/czottmann/kagi-ken-cli.git"
+    "url": "git+https://github.com/rnavarro/kagi-ken-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/czottmann/kagi-ken-cli/issues"
+    "url": "https://github.com/rnavarro/kagi-ken-cli/issues"
   },
-  "homepage": "https://github.com/czottmann/kagi-ken-cli#readme"
+  "homepage": "https://github.com/rnavarro/kagi-ken-cli#readme"
 }
